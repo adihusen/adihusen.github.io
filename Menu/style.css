@@ -1,0 +1,65 @@
+body{
+	background-image: url("1.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment:fixed ;
+	margin: 0;
+	padding: 0;
+
+}
+.logo {
+	float: left;
+	height: 25px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 15px;
+	color: white;
+}
+body, ul{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: ghostwhite;
+}
+nav{
+	background-color: royalblue;
+	padding: 10px 0;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 15px 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: royalblue;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: blueviolet;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
